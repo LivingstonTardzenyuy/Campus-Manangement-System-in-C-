@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E41574C2-59D0-4EB9-B4D5-025E67F6FA47}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cms</RootNamespace>
+    <AssemblyName>cms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="General\AppConnection.cs" />
+    <Compile Include="General\ConnectionString.cs" />
+    <Compile Include="General\ConnectionStrings.cs" />
+    <Compile Include="General\EncryptPassword.cs" />
+    <Compile Include="General\PasswordForLogin.cs" />
+    <Compile Include="MainFolder\AddRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFolder\AddRoles.Designer.cs">
+      <DependentUpon>AddRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFolder\LoadDataIntoDGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFolder\LoadDataIntoDGV.Designer.cs">
+      <DependentUpon>LoadDataIntoDGV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFolder\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFolder\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFolder\passwordForLoginOperation.cs" />
+    <Compile Include="MainFolder\Sqlconnection.cs" />
+    <Compile Include="MainFolder\Template.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFolder\Template.Designer.cs">
+      <DependentUpon>Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFolder\TestConn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFolder\TestConn.Designer.cs">
+      <DependentUpon>TestConn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFolder\txtPassword.cs" />
+    <Compile Include="MainFolder\txtRoleTitle.cs" />
+    <Compile Include="MainFolder\UsersTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFolder\UsersTable.Designer.cs">
+      <DependentUpon>UsersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFolder\ViewUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFolder\ViewUsers.Designer.cs">
+      <DependentUpon>ViewUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainFolder\AddRoles.resx">
+      <DependentUpon>AddRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFolder\LoadDataIntoDGV.resx">
+      <DependentUpon>LoadDataIntoDGV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFolder\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFolder\Template.resx">
+      <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFolder\TestConn.resx">
+      <DependentUpon>TestConn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFolder\UsersTable.resx">
+      <DependentUpon>UsersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFolder\ViewUsers.resx">
+      <DependentUpon>ViewUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

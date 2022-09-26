@@ -1,0 +1,15 @@
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\bin\Debug\cms.exe.config
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.Properties.Resources.resources
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.csproj.GenerateResource.Cache
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\bin\Debug\cms.exe
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\bin\Debug\cms.pdb
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.exe
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.pdb
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.MainFolder.TestConn.resources
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.MainFolder.Template.resources
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.MainFolder.AddRoles.resources
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.MainFolder.LoadDataIntoDGV.resources
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.MainFolder.UsersTable.resources
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.MainFolder.ViewUsers.resources
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.csprojResolveAssemblyReference.cache
+C:\Users\KONGNYUY\Desktop\CivilSalt_Kongnyuy Livingston\exit\MyPhoneBook\MyPhoneBook\cms\cms\obj\Debug\cms.MainFolder.LoginForm.resources
